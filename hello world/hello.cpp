@@ -9,7 +9,7 @@
 using namespace std;
 
 int main(){
-	cout << "Hey" << endl;
+	cout << "Hey, you are a poo" << endl;
 	return 0;
 }
 
