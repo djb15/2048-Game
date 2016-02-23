@@ -1,1 +1,0 @@
-morepointers.o: ../morepointers.cpp
