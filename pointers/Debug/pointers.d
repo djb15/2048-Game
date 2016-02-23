@@ -1,0 +1,1 @@
+pointers.o: ../pointers.cpp

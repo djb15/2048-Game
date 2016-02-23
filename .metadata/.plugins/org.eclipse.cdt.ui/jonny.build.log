@@ -1,0 +1,66 @@
+18:43:51 **** Build of configuration Debug for project jonny ****
+make all 
+Building file: ../jonnyshit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"jonnyshit.d" -MT"jonnyshit.o" -o "jonnyshit.o" "../jonnyshit.cpp"
+../jonnyshit.cpp:82:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+                                if((checking == 64)){
+                                    ~~~~~~~~~^~~~~
+../jonnyshit.cpp:82:18: note: remove extraneous parentheses around the comparison to silence this warning
+                                if((checking == 64)){
+                                   ~         ^    ~
+../jonnyshit.cpp:82:18: note: use '=' to turn this equality comparison into an assignment
+                                if((checking == 64)){
+                                             ^~
+                                             =
+../jonnyshit.cpp:112:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+                                if((checking == 64)){
+                                    ~~~~~~~~~^~~~~
+../jonnyshit.cpp:112:18: note: remove extraneous parentheses around the comparison to silence this warning
+                                if((checking == 64)){
+                                   ~         ^    ~
+../jonnyshit.cpp:112:18: note: use '=' to turn this equality comparison into an assignment
+                                if((checking == 64)){
+                                             ^~
+                                             =
+../jonnyshit.cpp:143:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+                                if((checking == 64)){
+                                    ~~~~~~~~~^~~~~
+../jonnyshit.cpp:143:18: note: remove extraneous parentheses around the comparison to silence this warning
+                                if((checking == 64)){
+                                   ~         ^    ~
+../jonnyshit.cpp:143:18: note: use '=' to turn this equality comparison into an assignment
+                                if((checking == 64)){
+                                             ^~
+                                             =
+../jonnyshit.cpp:173:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+                                if((checking == 64)){
+                                    ~~~~~~~~~^~~~~
+../jonnyshit.cpp:173:18: note: remove extraneous parentheses around the comparison to silence this warning
+                                if((checking == 64)){
+                                   ~         ^    ~
+../jonnyshit.cpp:173:18: note: use '=' to turn this equality comparison into an assignment
+                                if((checking == 64)){
+                                             ^~
+                                             =
+../jonnyshit.cpp:224:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+                                        if((main[(4*i) + j] == main[(4*i) + (j+1)])){ // does the next element = it?
+                                            ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+../jonnyshit.cpp:224:26: note: remove extraneous parentheses around the comparison to silence this warning
+                                        if((main[(4*i) + j] == main[(4*i) + (j+1)])){ // does the next element = it?
+                                           ~                ^                     ~
+../jonnyshit.cpp:224:26: note: use '=' to turn this equality comparison into an assignment
+                                        if((main[(4*i) + j] == main[(4*i) + (j+1)])){ // does the next element = it?
+                                                            ^~
+                                                            =
+5 warnings generated.
+Finished building: ../jonnyshit.cpp
+ 
+Building target: jonny
+Invoking: MacOS X C++ Linker
+g++  -o "jonny"  ./jonnyshit.o   
+Finished building target: jonny
+ 
+
+18:43:52 Build Finished (took 1s.801ms)
+
